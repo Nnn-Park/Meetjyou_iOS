@@ -20,7 +20,7 @@ struct KakaoFeature {
     enum Action {
         case kakaoTest
     }
-    
+    //adsfas
     var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
